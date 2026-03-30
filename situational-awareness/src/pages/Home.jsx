@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <List>
             {modules.map((module) => (
-                <ModuleListItem key={module} title={module} link={`/${module.toLowerCase().replace(/\s/g, "-")}`} />
+                <ModuleListItem key={module} title={module} link={`#/${module.toLowerCase().replace(/\s/g, "-")}`} />
             ))}
         </List>
     )
