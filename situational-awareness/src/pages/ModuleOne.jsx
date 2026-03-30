@@ -4,7 +4,6 @@ import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
 import VolumeUpIcon from '@mui/icons-material/VolumeUp';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
-import { Link } from "react-router-dom";
 
 const videoSources = [
   video1, 
@@ -46,7 +45,7 @@ export default function ModuleOne() {
   return (
     <Box display="flex" flexDirection="column" alignItems="center" >
         <Box display={"flex"} width="100%" alignItems={"center"}  pb={2}>
-          <IconButton component={Link} to="/" >
+          <IconButton >
             <NavigateBeforeIcon />
           </IconButton>
           <Box sx={{ flexGrow: 1, display: "flex", justifyContent: "center"}} >
