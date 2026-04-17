@@ -1,0 +1,28 @@
+{
+    "emergencyContacts":[
+        {
+            "fullName": "User 1",
+            "phoneNumber": "1231231234",
+            "relationship": "Parent"
+        },
+        {
+            "fullName": "User 2",
+            "phoneNumber": "1231231734",
+            "relationship": "Child"
+        }
+    ],
+    "towServices":[
+        {
+            "servName": "Service 1",
+            "servNumber": "3213214321",
+            "note": "24/7"
+        }
+    ],
+    "carEssentials":[  { "id": 1, "label": "First aid kit", "checked": true },
+  { "id": 2, "label": "Blanket", "checked": true },
+  { "id": 3, "label": "Water (2L)", "checked": false },
+  { "id": 4, "label": "Nonperishable food", "checked": false },
+  { "id": 5, "label": "Jumper cables", "checked": false }],
+  
+    "importantNotes":"Insurance: State Farm • Policy #SF-88201\nVIN: 1HGCM82633A123456\nLicense Plate: ABC-1234"
+}

@@ -1,0 +1,65 @@
+.background {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 40%;
+    width: 100%;
+    max-width: 390px; 
+
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+
+    padding: 1rem 1rem 0rem 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.header{
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: solid 1px black;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.label{
+    font-weight: 400;
+    font-size: 10px;
+}
+.input{
+    width: 100%;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    outline: solid rgb(194, 194, 194) 1px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.input:focus{
+    outline: solid 2px rgb(131, 187, 250);
+    
+    box-shadow: 0 0 5px 1px rgb(180, 215, 255);
+}
+
+.input:hover{
+    outline: solid rgb(159, 204, 255) 1px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer button{
+    width: 49%;
+    height: 40px;
+    border-radius: 0.5rem;
+}

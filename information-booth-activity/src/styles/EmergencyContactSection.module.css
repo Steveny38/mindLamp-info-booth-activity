@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 14px;
+  margin-top: 10px;
+
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+
+  background: #fafafa;
+  transition: 0.2s ease;
+}
+
+.container:hover {
+  background: #f3f4f6;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.left div:first-child {
+  font-weight: 500;
+  font-size: 14px;
+  color: #111827;
+}
+
+.left div:last-child {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.right button {
+  border: none;
+  background: transparent;
+  color: #ef4444;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.right button:hover {
+  background: #fee2e2;
+}
