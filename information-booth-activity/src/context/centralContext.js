@@ -64,6 +64,10 @@ function toggleCarEssential(id) {
   console.log(towServices)
 }
 
+  function saveJSON(){
+    
+  }
+
     return(
 
         <CentralContext.Provider value={{emergencyContacts, setEmergencyContact, toggleAdd, setToggle, addType, setAddType, addTow, addContact, towServices, setTowServices, resetAdd, removeEmergencyContact, removeTowService, carEssentials,    setCarEssentials,

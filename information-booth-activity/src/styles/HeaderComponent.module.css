@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100px
+}
+
+.logo {
+  height: 40px;
+  margin-left: 10px;
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  font-weight: bold;
+}

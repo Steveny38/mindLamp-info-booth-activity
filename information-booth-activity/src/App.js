@@ -4,7 +4,9 @@ import AddToComponent from './components/AddToComponent';
 import CarEssentialsComponent from './components/CarEssentialsComponent';
 import './components/EmergencyContactComponent'
 import EmergencyContactComponent from './components/EmergencyContactComponent';
+import HeaderComponent from './components/HeaderComponent';
 import ImportantNotesComponent from './components/ImportantNoteComponent';
+import SaveButtonComponent from './components/SaveButtonComponent';
 import TowServiceComponent from './components/TowServiceComponent';
 import { useCentralContext } from './context/centralContext';
 
@@ -16,6 +18,7 @@ function App() {
       
 
       <div className="App">
+        <HeaderComponent></HeaderComponent>
         <EmergencyContactComponent></EmergencyContactComponent>
 
         <TowServiceComponent></TowServiceComponent>
@@ -28,6 +31,10 @@ function App() {
         <AddToComponent componentType={addType} ></AddToComponent>
 
       }
+      {
+        !toggleAdd && <SaveButtonComponent></SaveButtonComponent>
+      }
+
       </div>
 
   );
